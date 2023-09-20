@@ -1,13 +1,12 @@
 import React from "react";
-import Counter from "./Counter"
-import EpisodeBrowser from "./EpisodeBrowser";
+import PokemonBrowser from "./PokemonBrowser";
 
 export default function App (){
   
 
     return(
         <div className="App">
-            <EpisodeBrowser  />
+            <PokemonBrowser  />
            
         </div>
     );
