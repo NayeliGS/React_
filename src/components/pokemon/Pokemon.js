@@ -11,9 +11,10 @@ export default function Pokemon(props){
                     <p>pokemon num: {props.id} </p>
                 )
             } */}
+            <p className="pokemonName">Name: {props.name}</p>
             <p>pokemon num: {props.id} </p>
-            <p className="pokemonNumber">Name: {props.name}</p>
-            <img src={props.sprite} alt={props.name} width={170}/>
+            <p>Types: {props.types}</p>
+            <img className="pokemonImg" src={props.sprite} alt={props.name} width={170}/>
         </div>
     );
 
